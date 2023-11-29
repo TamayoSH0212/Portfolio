@@ -1,1 +1,7 @@
+De este proyecto no puedo dar tantos detalles debido a que es de la empresa en la que laboré.
+En general, Haciendo uso microcontrolador desarrollé el diseño de la PCB y el código para poder recibir la información de proveniente de un PLC a través del protocolo de
+Comunicación ModBus.
+La información recibida era el estado de 51 equipos que debía ser enviada a una plataforma IoT, con la finalidad de enviar notificaciones al usuario final.
 
+Enlace de evidencia:
+https://photos.app.goo.gl/wPrt5Jbt9AL8GHqx7
