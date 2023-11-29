@@ -1,1 +1,43 @@
+La finalidad de este proyecto fue obtener una calificación aprobatoria en el segundo semestre de la carrera.
+En este semestre realizamos un proyecto de la mano con la empresa en la que estaba haciendo mis prácticas profecionales, para una 
+pequeña empresa que se encontraba en sus inicios en la producción de gomitas.
+Dicha empresa realizaba el 100% de sus tareas de manera manual. Y el proceso que les demandaba más tiempo y esfuerzo físico a las
+trabajadoras era el proceso de cernido. En el cual tenían la tarea de retirar el exceso de azúcar de las gomitas antes de 
+empaquetarlas, y les tomaba alrededor de 12 minutos en cernir 2Kg. 
+El principal objetivo del proyecto era disminuir el tiempo de cernido y aprovechar este tiempo en la ejecución de otras tareas lo que
+resultaría en un incremento del volumen de producción.
+Este proyecto se dividió en diferentes tareas:
+
+-Diseño: Para el diseño de la estructura se realizaron múltiples lluvias de ideas, de las cuales tomamos las más prometedoras y con 
+  base en ellas realizamos pruebas de campo para recolectar datos y tomar una decisión final en torno a cómo debería de ser la 
+  estructura para cumplir con todos los requerimientos.
+  Tras haber hecho diversas pruebas y elegimos el diseño que mejores datos nos arrojó en cuanto a la mayor cantidad de gomitas
+  cernidas en el menos tiempo. Y se comenzó con el modelado de la estructura en Solidworks.
+-Logística: Una vez con el BOM completo, se realizó la búsqueda de todos los componentes y servicios de los cuales íbamos a hacer
+  uso aplicando presión a cada uno de ellos para poder cumplir con el tiempo de entrega correspondiente.
+-Ensamblaje y cableado: Con los materiales ya a la mano, comenzamos con el ensamblaje de los componentes, la colocación de los
+  sensores y actuadores, y finalizamos con el ruteo de los cables hacia el gabinete de control.
+-Cableado del gabinete: Dentro del gabinete de control colocamos una fuente de alimentación de 5V, una tarjeta de desarrollo Arduino
+  UNO, colocamos un riel din y pusimos las clemas necesarias para conectar las entradas y salidas necesarias y que se usarían para el
+  proyecto.
+  Introducimos los cables previamente ruteados al gabinete de control y realizamos las correcciones correspondientes.
+-Programación: La programación del sistema fue bastante sencilla. Haciendo uso de una pantalla LCD de 16X2 mostramos al usuario el 
+  parámetro de tiempo de cernido, el cual podrá ser manipulado por medio de un potenciómetro. Una vez ajustando el tiempo con un
+  botón se iniciaba el proceso de cernido activando una salida digital, y por medio de un relevador, la activación del motor. En la
+  En la pantalla LCD se mostraba una cuenta regresiva que le permite al usuario visualizar el  estatus del proceso.
+  Al finalizar el tiempo, el motor continuaba girando hasta quedar en su posición inicial, para ello, colocamos un sensor inductivo
+  en el cual mandara la señal al Arduino cuando la cernidora debía detenerse. Y de esta manera reiniciar el proceso.
+-Pruebas: Con la máquina finalizada, comenzamos con un proceso de pruebas en la que pusimos a trabajar la máquina por varias horas
+  para verificar su funcionamiento ya que estaba pensada para laborar 8 horas diarias. También colocamos un volumen de gomitas de
+  12Kg en su interior y verificamos el tiempo mínimo que requeria la máquina para cernir correctamente la cantidad antes mencionada.
+  El valor de tiempo obtenido fue de 5 minutos de cernido para los 12Kg.
+-Instalación y puesta en marcha: Al finalizar con las pruebas nos encargamos de llevar la máquina a la fabrica de gomitas y dar una
+  capacitación a las empleadas del recinto, para que le dieran un uso adecuado al equipo.
+
+El equipo ha estado trabajando continuamente desde junio del 2019 con algunas visitas para mantenimiento.
+Las observaciones que realizamos tras el primer año de funcionamiento de la máquina fueron: El incremento del personal, incremento
+en el stock del negocio y distribución a tiendas de renombre.
+
+Enlaces de Evidencia:
+https://photos.app.goo.gl/o7re87QEdk9C9bEd6
 
