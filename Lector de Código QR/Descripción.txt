@@ -1,1 +1,17 @@
+El objetivo de este proyecto fue concluir probatoriamente con el primer semestre de la carrera. Partiendo de la premisa de hacer un prototipo para registrar la trazabilidad de un producto dentro de una línea de producción, realizamos un prototipo capaz de leer el código QR de un objeto.
+El prototipo se basó en dos partes principales, la estructura, que fue una banda transportadora, y el análisis del código QR.
 
+Para la elaboración de la estructura utilizamos primordialmente PTR. El cual fue cortado y soldado con las medidas de un diseño previo y colocando los mecanismos correspondientes para su funcionamiento.
+Para el control de la banda transportadora, colocamos un sensor IR en la parte central de la estructura con el fin de detener el objeto con el QR en la posición de lectura.
+Utilizamos la tarjeta de desarrollo Arduino para la activación y desactivación de la banda transportadora y usamos una salida digital para comunicar a una Raspberri Pi 3 el que el objeto se encontraba en posición para iniciar con la lectura del código.
+
+En el análisis del código QR, utilizamos una Raspberri Pi 3 y una cámara de 8 megapixeles compatible con esta tarjeta de desarrollo. Lo primero que tuvimos que realizar fue la instalación de la librería Zbar, librería que permite hacer lecturas de código Qr encontrados en una imagen dada.
+Posteriormente hicimos la programación en python con la función de tomar una fotografía al momento de recibir la señal proveniente del Arduino, y guardarla en una ruta específica para posteriormente analizar la imagen y finalmente imprimir el contenido del código Qr en la imagen
+
+
+
+
+Enlaces a evidenca:
+https://photos.app.goo.gl/9KWkTeeHH1gjTBTE7
+https://photos.app.goo.gl/2ZivYDXd9pwJBW1P7
+https://photos.app.goo.gl/sCwcSsjbpuUXYQ13A
